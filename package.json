@@ -1,16 +1,15 @@
 {
-  "name": "parcel",
-  "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
-  "scripts": {
-    "build": "tsc"
-  },
-  "dependencies": {
-    "parcel": "^2.16.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.5.3"
-  },
-  "private": true
+    "name": "parcel",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "dev": "parcel index.hbs",
+        "build": "parcel build index.hbs"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@anikin/parcel-transformer-handlebars": "^1.0.9",
+        "parcel": "^2.16.0"
+    },
+    "private": true
 }
